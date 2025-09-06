@@ -21,38 +21,38 @@ Working on this project gave me hands-on experience with applying digital image 
 
 1) Video I/O and Metadata Handling
 
-  • How to use OpenCV to open, read, and write video streams frame by frame.
+    • How to use OpenCV to open, read, and write video streams frame by frame.
 
-  • The importance of handling metadata like FPS, resolution, and frame count to ensure output videos remain consistent with the input.
+    • The importance of handling metadata like FPS, resolution, and frame count to ensure output videos remain consistent with the input.
 
 2) Brightness and Illumination Adjustment
 
-  • How to measure video brightness by converting frames to grayscale and computing average intensity.
+    • How to measure video brightness by converting frames to grayscale and computing average intensity.
 
-  • How to automatically classify videos as “day” or “night” based on thresholding.
+    • How to automatically classify videos as “day” or “night” based on thresholding.
 
-  • Techniques for safely brightening dark videos in HSV color space while avoiding pixel overflow.
+    • Techniques for safely brightening dark videos in HSV color space while avoiding pixel overflow.
 
 3) Face Detection and Privacy Protection
 
-  • Learned to use Haar cascade classifiers for detecting faces in frames.
+    • Learned to use Haar cascade classifiers for detecting faces in frames.
 
-  • Gained practice with region-based processing (selecting ROIs) and applying Gaussian blur to anonymize sensitive areas.
+    • Gained practice with region-based processing (selecting ROIs) and applying Gaussian blur to anonymize sensitive areas.
 
 4) Overlaying and Blending Visuals
+  
+    • How to embed a smaller video into a main video, resize it, and add a border for clarity.
 
-  • How to embed a smaller video into a main video, resize it, and add a border for clarity.
-
-  • How to overlay watermarks using masks to blend foreground and background effectively.
+    • How to overlay watermarks using masks to blend foreground and background effectively.
 
 5) Video Composition and Storytelling
 
-  • Techniques for adding watermarks that alternate over time, improving security and branding.
+    • Techniques for adding watermarks that alternate over time, improving security and branding.
 
-  • How to append an endscreen clip seamlessly after the main video.
+    • How to append an endscreen clip seamlessly after the main video.
 
 6) Visualization and Debugging
 
-  • Using Matplotlib to plot brightness values across sampled frames helped in debugging and understanding illumination conditions.
+    • Using Matplotlib to plot brightness values across sampled frames helped in debugging and understanding illumination conditions.
 
 Overall, this project helped me connect theoretical image processing concepts (filtering, masking, blending, intensity adjustment, and detection) with practical applications in video editing, security, and media production.
